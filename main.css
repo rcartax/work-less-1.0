@@ -1,0 +1,40 @@
+* {
+    border: none;
+}
+
+body {
+    background: rgb(31, 47, 82);
+    font: normal 12pt Arial;
+    color: white;
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.dateForm {
+    display: block;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 10px;
+    padding: 10px;
+    height: 300px;
+    width: 25%;
+    min-width: 220px;
+    margin: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.475)
+}
+
+#check2 {
+    display: none ;
+    margin: auto;
+}
+
+#check3 {
+    display: none ;
+    margin: auto;
+}
